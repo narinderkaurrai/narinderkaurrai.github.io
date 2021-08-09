@@ -1,0 +1,39 @@
+.top_header {
+	background-color: #f85532;
+	color: #fff;
+}
+.top_header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top_left > li {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.top_header > div > ul.top_left > li > .mailtop {
+	padding: 1.5vw 1vw 1.5vw .3vw;
+}
+.mailtop {
+	font-size: 10rem;
+}
+.top_header {
+	color: #fff;
+}
+
+
+/*----------start responsive------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+.top_header .container {
+	padding: 10px 37px;
+}
+.top_header > div > ul.top_left > li > img {
+	padding: 1.5vw 1vw 1.5vw .3vw;
+	max-width: 6vw;
+}
+
+}
